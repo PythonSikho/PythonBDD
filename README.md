@@ -51,7 +51,3 @@
 - Allure: `https://github.com/allure-framework/allure2/releases`
 - Netlify API: `https://docs.netlify.com/api/get-started/`
                `https://docs.netlify.com/api/get-started/#zip-file-method`
-
-
-
-`For any support /query, please contact vikas-kumar@hpe.com`
