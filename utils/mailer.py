@@ -20,7 +20,7 @@ def deployAllureReportToNetlify(resultPath):
     # Step-1
     print("Generating allure report...")
     reportPath = resultPath + os.sep + "allure-report"
-    os.system(f"allure generate {resultPath} -o {reportPath} --clean")
+    os.system(f"C:\\allure-2.22.0\\allure-2.22.0\\bin\\allure generate {resultPath} -o {reportPath} --clean")
 
     # Step-2
     print("Zipping the allure-report for Netify")

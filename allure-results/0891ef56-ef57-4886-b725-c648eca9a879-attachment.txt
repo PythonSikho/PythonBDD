@@ -1,0 +1,21 @@
+2023-05-27 23:02:51.282416 - INFO - ********************************* Version:1.0 **********************************
+2023-05-27 23:02:51.282416 - INFO - Execution Job Id:BDDAutomation_27052023230251
+2023-05-27 23:02:51.282416 - INFO - Tag:@Login || Module:sauceLab || Feature:None
+2023-05-27 23:02:51.282416 - INFO - Final command:behave .//modules//sauceLab --tags @Login -f allure_behave.formatter:AllureFormatter -o D:\Framework\PythonBDD\allure-results -D job_id=BDDAutomation_27052023230251 -D module=sauceLab
+2023-05-27 23:02:51.540098 - INFO -  Behave Env JobId:BDDAutomation_27052023230251 || module:sauceLab 
+2023-05-27 23:02:51.544097 - INFO - ************************* [FEATURE]:Login Page screen **************************
+2023-05-27 23:02:51.547187 - INFO - 
+[SCENARIO]:Login with valid credentials
+2023-05-27 23:02:52.627725 - INFO - [STEP]:I Launch the browser - PASSED
+2023-05-27 23:02:53.568872 - INFO - [STEP]:I Open the saucedemo website - PASSED
+2023-05-27 23:02:53.574027 - INFO - Title is : Swag Labs
+2023-05-27 23:02:53.575027 - INFO - [STEP]:The login portal has been opened - PASSED
+2023-05-27 23:02:53.680227 - INFO - standard_user  provided as input
+2023-05-27 23:02:53.763282 - INFO - secret_sauce  provided as input
+2023-05-27 23:02:53.763282 - INFO - [STEP]:I provide the username "standard_user" and password "secret_sauce" - PASSED
+2023-05-27 23:02:54.070781 - INFO - LoginBtn  Clicked
+2023-05-27 23:02:54.071782 - INFO - [STEP]:I click on the Login button - PASSED
+2023-05-27 23:02:54.153782 - INFO - Text Fetched:Products
+2023-05-27 23:02:57.155779 - INFO - [STEP]:Validate login is successful - PASSED
+2023-05-27 23:02:57.155779 - ERROR - STATUS:PASSED
+
