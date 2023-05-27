@@ -45,7 +45,7 @@ try {
 }
 
 try {
-    stage("Report") {
+    stage("Allure Report") {
         echo "Generating Allure Report ..."
         allure report: 'allure_reports', results: [[path: 'allure_results']]
         echo "Report generation done."
