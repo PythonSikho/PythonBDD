@@ -1,6 +1,6 @@
 # BDD Automation Framework v1.0 using Python
 
-### How to set-up
+### How to set up
 - Clone the project "git clone "https://github.hpe.com/hpe/BDD_Automation_Fw.git"
 - Create virtual environment[Onetime] : `py -m venv venv`
 - Switch to virtual environment       : `.\venv\Scripts\activate`
