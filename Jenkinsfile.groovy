@@ -212,7 +212,7 @@ stage('Git Checkout') {
     checkout scm
     println "[Stage1] Git Checkout - Successfully"
     } // End Of Stage block
-} catch (Exception e) {
+catch (Exception e) {
     println(e.toString())
     currentBuild.result = 'ABORTED'
     error("Stopping ...")
