@@ -25,7 +25,7 @@ node("master") {
 
 
 try {
-        stage('build') {
+        stage('Test Execution') {
             def MODULE = "${params.MODULE_TO_TEST}"
             def TAGS = "${params.TAGS_TO_TEST}"
 
@@ -45,7 +45,7 @@ try {
 }
 
 try {
-    stage("Report Generation") {
+    stage("Report") {
         echo "Generating Allure Report ..."
         allure report: 'allure_reports', results: [[path: 'allure_results']]
         echo "Report generation done."

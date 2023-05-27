@@ -3,7 +3,6 @@
 *.log
 *.cachefile
 *.Cache
-*.exe
 *.pyc
 *.idea
 *.ova
@@ -20,4 +19,3 @@ cred.py
 [Ii]magefiles/
 [Aa]llure_results/
 venv/
-config/user_input.json
