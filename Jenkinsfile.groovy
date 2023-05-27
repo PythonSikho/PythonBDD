@@ -1,6 +1,6 @@
 #!groovy
 
-node('master') {
+node('Built-In Node') {
 try {
  stage("Git Checkout") {
     println "We are in checkout stage"
