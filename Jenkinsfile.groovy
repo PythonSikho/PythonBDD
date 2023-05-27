@@ -1,5 +1,6 @@
 #!groovy
 
+node('master') {
 try {
  stage("Git Checkout") {
     println "We are in checkout stage"
@@ -12,4 +13,5 @@ try {
     println(e.toString())
     currentBuild.result = 'ABORTED'
     error("Stopping ...")
+}
 }
