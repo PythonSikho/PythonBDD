@@ -53,3 +53,4 @@
                `https://docs.netlify.com/api/get-started/#zip-file-method`
 
 
+#### Jenkins Allure Support

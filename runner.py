@@ -27,7 +27,8 @@ class Runner:
     def trigger_job(self):
         # Allure
         self.root_dir = os.getcwd()
-        self.reportpath = self.root_dir + os.sep + "reports" + os.sep + self.job_id + os.sep + "allure-results"
+        # self.reportpath = self.root_dir + os.sep + "reports" + os.sep + self.job_id + os.sep + "results"
+        self.reportpath = self.root_dir + os.sep + "allure_reports"
         if not os.path.isdir(self.reportpath):
             os.makedirs(self.reportpath)
         self.allurereport_param = f"-f allure_behave.formatter:AllureFormatter -o {self.reportpath}"
