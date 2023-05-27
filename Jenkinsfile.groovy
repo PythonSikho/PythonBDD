@@ -518,4 +518,3 @@ try {
         currentBuild.result = 'ABORTED'
         error("Stopping ...")
     }
-}
