@@ -204,19 +204,26 @@ properties([
 ])
 
 
+
 try {
-stage('Git Checkout') {
+ stage("Git Checkout") {
     println "We are in checkout stage"
     def new_exclude_patterns = [[pattern: "**", type: 'INCLUDE']]
     cleanWs deleteDirs: true, skipWhenFailed: true, patterns: new_exclude_patterns
     checkout scm
     println "[Stage1] Git Checkout - Successfully"
-    } // End Of Stage block
-catch (Exception e) {
+    }
+} catch (Exception e) {
     println(e.toString())
     currentBuild.result = 'ABORTED'
     error("Stopping ...")
-} // End of Try Catch block
+}
+
+
+
+
+
+
 
 /// [Stage-2] The below stage is to have the template updated before executing like IP address / username to execute tests ..
     try {
