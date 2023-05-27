@@ -13,6 +13,7 @@
 *.tar
 *.__pycache__
 jenkins_user_inputs.txt
+cred.py
 
 [Ll]ogs/
 [Rr]eports/
